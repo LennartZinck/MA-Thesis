@@ -1,6 +1,6 @@
 ######## Mit diesem Skript werden die Super Spreader analysiert
 
-K <- readRDS("Zuschnitt_Comments.rds")
+K <- readRDS("Comments_All_Clean.rds")
   
 ### Umgang mit den "Super-Spreadern"
 account_comment_counts <- K %>%
